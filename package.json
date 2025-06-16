@@ -1,0 +1,19 @@
+{
+  "name": "budget_tracker",
+  "version": "1.0.0",
+  "description": "Budget Management System - Backend API",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/neha-iitjdh/budget_tracker.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/neha-iitjdh/budget_tracker/issues"
+  },
+  "homepage": "https://github.com/neha-iitjdh/budget_tracker#readme"
+}
