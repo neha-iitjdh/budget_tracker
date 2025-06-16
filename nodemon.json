@@ -1,6 +1,6 @@
 {
-  "semi": true,
-  "trailingComma": "es5",
-  "singleQuote": true,
-  "tabWidth": 2
+  "watch": ["index.js", "routes", "controllers", "services", "config", "models", "docs", "views"],
+  "ext": "js,json",
+  "ignore": ["node_modules"],
+  "exec": "node index.js"
 }
