@@ -4,7 +4,10 @@
   "description": "Budget Management System - Backend API",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node app.test.js",
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "clean": "npx prettier --write ."
   },
   "repository": {
     "type": "git",
@@ -15,5 +18,13 @@
   "bugs": {
     "url": "https://github.com/neha-iitjdh/budget_tracker/issues"
   },
-  "homepage": "https://github.com/neha-iitjdh/budget_tracker#readme"
+  "homepage": "https://github.com/neha-iitjdh/budget_tracker#readme",
+  "dependencies": {
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0",
+    "nodemon": "^3.1.10"
+  },
+  "devDependencies": {
+    "prettier": "^3.5.3"
+  }
 }
