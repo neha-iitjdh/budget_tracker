@@ -1,14 +1,36 @@
 {
   "name": "budget_tracker",
+  "displayName": "Budget Management System - Backend API",
   "version": "1.0.0",
   "description": "Budget Management System - Backend API",
   "main": "index.js",
   "scripts": {
-    "test": "node app.test.js",
-    "start": "node index.js",
+    "start": "nodemon index.js",
     "dev": "nodemon index.js",
-    "clean": "npx prettier --write ."
+    "api": "nodemon index.js",
+    "cli": "node cli.js",
+    "frontend": "cd frontend && npm start",
+    "backend": "nodemon index.js",
+    "install-deps": "npm install",
+    "test": "jest --runInBand --detectOpenHandles --forceExit",
+    "test:watch": "jest --watchAll",
+    "test:coverage": "jest --coverage",
+    "format": "prettier --config .prettierrc --write \"**/*.{js,ts,json}\""
   },
+  "keywords": [
+    "mongo",
+    "redis",
+    "flow",
+    "project",
+    "amqplib",
+    "axios",
+    "http-proxy",
+    "postgresql",
+    "elasticsearch",
+    "elk-stack",
+    "express",
+    "mongoose"
+  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/neha-iitjdh/budget_tracker.git"
@@ -22,9 +44,11 @@
   "dependencies": {
     "dotenv": "^16.5.0",
     "express": "^5.1.0",
-    "nodemon": "^3.1.10"
+    "prettier": "^3.5.3"
   },
   "devDependencies": {
-    "prettier": "^3.5.3"
+    "jest": "^30.0.0",
+    "nodemon": "^3.1.10",
+    "supertest": "^7.1.1"
   }
 }
