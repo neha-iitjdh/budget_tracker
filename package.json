@@ -42,9 +42,19 @@
   },
   "homepage": "https://github.com/neha-iitjdh/budget_tracker#readme",
   "dependencies": {
+    "cors": "^2.8.5",
     "dotenv": "^16.5.0",
     "express": "^5.1.0",
-    "prettier": "^3.5.3"
+    "express-graphql": "^0.12.0",
+    "kafkajs": "^2.2.4",
+    "mongodb": "^6.17.0",
+    "mongoose": "^8.16.0",
+    "morgan": "^1.10.0",
+    "prettier": "^3.5.3",
+    "redis": "^5.5.6",
+    "serve-favicon": "^2.5.1",
+    "swagger-jsdoc": "^6.2.8",
+    "swagger-ui-express": "^5.0.1"
   },
   "devDependencies": {
     "jest": "^30.0.0",
