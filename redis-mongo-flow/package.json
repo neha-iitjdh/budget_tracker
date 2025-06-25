@@ -1,0 +1,21 @@
+{
+  "name": "mongo-redis-project",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "node test.js",
+    "seed": "node seed.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "amqplib": "^0.10.4",
+    "axios": "^1.7.2",
+    "express": "^4.19.2",
+    "mongoose": "^8.4.1",
+    "redis": "^4.6.14"
+  }
+}
